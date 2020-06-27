@@ -1,0 +1,185 @@
+\indexentry{[$N$] Number of SM per arm|hyperpage}{8} 
+\indexentry{[$k$] A certain phase, \textbf{a}, \textbf{b} or \textbf{c}, of the system|hyperpage}{8} 
+\indexentry{[$p$] if it appears superscript o subscript in a variable, It is related to an upper arm of the MMC|hyperpage}{8} 
+\indexentry{[$n$] if it appears superscript o subscript in a variable, It is related to an lower arm of the MMC|hyperpage}{8} 
+\indexentry{[$SM_{ij}^k$] A certain SM in the upper, if \textbf{i=p}, or lower, if \textbf{i=n}, arm of the phase k|hyperpage}{8} 
+\indexentry{[$L$] Coupling reactor of each of the arms of the MMC|hyperpage}{8} 
+\indexentry{[$R$] Equivalent resistance of each of the arms of the MMC|hyperpage}{8} 
+\indexentry{[$L_f$] Equivalent inductance linking the MMC output to the main bus|hyperpage}{8} 
+\indexentry{[$R_f$] Equivalent resistance linking the MMC output to the main bus|hyperpage}{8} 
+\indexentry{[$C$] Capacitance of the SM capacitor|hyperpage}{8} 
+\indexentry{[$e_c^a$, $e_c^b$, $e_c^c$] MMC produced ac voltages in phases \textbf{a}, \textbf{b} and \textbf{c}|hyperpage}{9} 
+\indexentry{[$i_c^a$, $i_c^b$, $i_c^c$] MMC output ac currents in phases \textbf{a}, \textbf{b} and \textbf{c}|hyperpage}{9} 
+\indexentry{[$v_o^a$, $v_o^b$, $v_o^c$] MMC output ac currents in phases \textbf{a}, \textbf{b} and \textbf{c}|hyperpage}{9} 
+\indexentry{[$v_{dc}$] DC-bus voltage|hyperpage}{9} 
+\indexentry{[$v_{ac}^{ijk}$] AC terminal voltage of a certain SM: \textbf{i} can be \textbf{p} or \textbf{n}; \textbf{j} is the number of the SM; \textbf{k} is the phase|hyperpage}{9} 
+\indexentry{[$v_{dc}^{ijk}$] DC voltage of a certain SM: \textbf{i} can be \textbf{p} or \textbf{n}; \textbf{j} is the number of the SM; \textbf{k} is the phase|hyperpage}{9} 
+\indexentry{[$i_c^k$] Output current of the phase~\textbf{k}|hyperpage}{10} 
+\indexentry{[$i_{cp}^k$] Upper-arm current of the phase~\textbf{k}|hyperpage}{10} 
+\indexentry{[$i_{cn}^k$] Lower-arm current of the phase~\textbf{k}|hyperpage}{10} 
+\indexentry{[$Q_+$] The upper switch of a SM|hyperpage}{13} 
+\indexentry{[$Q_-$] The lower switch of a SM|hyperpage}{13} 
+\indexentry{[$v_{RL}$] AC voltage across the RL net of a arm of the MMC|hyperpage}{17} 
+\indexentry{[$\displaystyle \sum_{inserted} v_{dc}^{pja}$] Sum of the dc voltages inserted in the upper arm of phase \textbf{a} in a certain time instant|hyperpage}{17} 
+\indexentry{[$\displaystyle \sum_{inserted} v_{dc}^{nja}$] Sum of the dc voltages inserted in the lower arm of phase \textbf{a} in a certain time instant|hyperpage}{17} 
+\indexentry{[$P$] Active power|hyperpage}{18} 
+\indexentry{[$M_i^{k}$] Number of inserted SMs in a certain time instant in the arm \textbf{i} of the phase \textbf{k}|hyperpage}{19} 
+\indexentry{[$m_i^{k}$] Percent of SMs in a certain time instant in the arm \textbf{i} of the phase \textbf{k}|hyperpage}{19} 
+\indexentry{[$m_p^{k}$] Insertion index of the upper arm of the phase \textbf{k}|hyperpage}{19} 
+\indexentry{[$m_n^{k}$] Insertion index of the lower arm of the phase \textbf{k}|hyperpage}{19} 
+\indexentry{[$e_c^{k*}$] Reference signal for the produced voltage of the phase \textbf{k}|hyperpage}{21} 
+\indexentry{[$e_{cir}^{k*}$] Reference signal for mitigating the second-harmonic component of the phase \textbf{k}|hyperpage}{21} 
+\indexentry{[$v_{ac}^{pk}$] Equivalent ac voltage of the SMs of the upper arm of the phase~\textbf{k}|hyperpage}{27} 
+\indexentry{[$v_{ac}^{nk}$] Equivalent ac voltage of the SMs of the lower arm of the phase~\textbf{k}|hyperpage}{27} 
+\indexentry{[$v_{dc}^{pk}$] Equivalent dc voltage of the SMs of the upper arm of the phase~\textbf{k}|hyperpage}{28} 
+\indexentry{[$v_{dc}^{nk}$] Equivalent dc voltage of the SMs of the lower arm of the phase~\textbf{k}|hyperpage}{28} 
+\indexentry{[$v_{dc}^{ik}$] Equivalent dc voltage of the upper, if i = p, or lower, if i = n, arm of the phase~\textbf{k}|hyperpage}{29} 
+\indexentry{[$m_i^k$] Insertion index of the upper, if i = p, or lower, if i = n, arm of the phase~\textbf{k}|hyperpage}{29} 
+\indexentry{[$i_{ci}^k$] Current of the upper, if i = p, or lower, if i = n, arm of the phase~\textbf{k}|hyperpage}{29} 
+\indexentry{[$i_{dc}^{pk}$] Equivalent dc current of the upper arm of the phase~\textbf{k}|hyperpage}{29} 
+\indexentry{[$i_{dc}^{nk}$] Equivalent dc current of the lower arm of the phase~\textbf{k}|hyperpage}{29} 
+\indexentry{[$C_{eq}$] Equivalent capacitor of the SMs|hyperpage}{29} 
+\indexentry{[$v_{dc}^{\Sigma k}$] Sum of the equivalent dc voltages of an arm of the phase \textbf{k} |hyperpage}{36} 
+\indexentry{[$v_{dc}^{\Delta k}$] Difference of the equivalent dc voltages of an arm of the phase \textbf{k} |hyperpage}{36} 
+\indexentry{[$v_{oss}^{k}$] Instantaneous steady-state value of the phase~\textbf{k} of the main-bus voltage|hyperpage}{38} 
+\indexentry{[$V_{ss}$] Steady-state RMS value of the main-bus voltage|hyperpage}{38} 
+\indexentry{[$\phi_k $] Phase displacement between the phases of the system|hyperpage}{38} 
+\indexentry{[$i_{css}^{k}$] Instantaneous steady-state value of the phase~\textbf{k} of the output ac current|hyperpage}{38} 
+\indexentry{[$I_{ss}$] Steady-state RMS value of the output ac current|hyperpage}{38} 
+\indexentry{[$\phi_i $] Phase displacement between the output current and main-bus voltage|hyperpage}{38} 
+\indexentry{[$S_{ss}$] Complex power produced by the MMC in steady-state|hyperpage}{38} 
+\indexentry{[$P_{ss}$] Active power produced by the MMC in steady-state|hyperpage}{38} 
+\indexentry{[$Q_{ss}$] Reactive power produced by the MMC in steady-state|hyperpage}{38} 
+\indexentry{[$e_{c{ss}}^k$] Instantaneous steady-state value of the phase~\textbf{k} of the output voltage|hyperpage}{39} 
+\indexentry{[$\overline{v_{dc}^{kn}}$] Average value over a fundamental-frequency spam of $v_{dc}^{kn}$ |hyperpage}{39} 
+\indexentry{[$\overline{v_{dc}^{kp}}$] Average value over a fundamental-frequency spam of $v_{dc}^{kp}$ |hyperpage}{39} 
+\indexentry{[$V_{dc{ss}}$] Steady-state value of the dc voltage $v_{dc}$ |hyperpage}{39} 
+\indexentry{[$E_{ss}^{s*}$] Sine projection of the steady-state value of the amplitude of the output voltage $e_c^k$|hyperpage}{39} 
+\indexentry{[$E_{ss}^{c*}$] Cosine projection of the steady-state value of the amplitude of the output voltage $e_c^k$|hyperpage}{39} 
+\indexentry{[$E_{ss}^{*}$] Steady-state value of the amplitude of the output voltage $e_c^k$|hyperpage}{39} 
+\indexentry{[$\gamma_e $] Steady-state phase displacement between the output voltage $e_c^k$ and the main-bus voltage $v_o^k$|hyperpage}{39} 
+\indexentry{[$m_{p{ss}}^k$] Steady-state instantaneous value of $m_{p}^k$|hyperpage}{40} 
+\indexentry{[$m_{n{ss}}^k$] Steady-state instantaneous value of $m_{n}^k$|hyperpage}{40} 
+\indexentry{[$i_{cirss}^{k}$] Instantaneous steady-state value of the phase~\textbf{k} of the circulating current $i_{cir}^{k}$|hyperpage}{40} 
+\indexentry{[$\overline{i}_{cirss}^{k}$] Steady-state dc component of the circulating current $i_{cir}^{k}$|hyperpage}{40} 
+\indexentry{[$v_{dcss}^{na}$] Steady-state instantaneous value of $v_{dc}^{na}$|hyperpage}{41} 
+\indexentry{[$v_{dcss}^{pa}$] Steady-state instantaneous value of $v_{dc}^{pa}$|hyperpage}{41} 
+\indexentry{[$V_{dc_{ic}}^{pa}$] Steady-state cosine-projection of the amplitude of the ith-order harmonic component of $v_{dc}^{pa}$|hyperpage}{41} 
+\indexentry{[$V_{dc_{is}}^{pa}$] Steady-state sine-projection of the amplitude of the ith-order harmonic component of $v_{dc}^{pa}$|hyperpage}{41} 
+\indexentry{[$V_{dc_{ic}}^{na}$] Steady-state cosine-projection of the amplitude of the ith-order harmonic component of $v_{dc}^{na}$|hyperpage}{41} 
+\indexentry{[$V_{dc_{is}}^{na}$] Steady-state sine-projection of the amplitude of the ith-order harmonic component of $v_{dc}^{na}$|hyperpage}{41} 
+\indexentry{[$I_{cir_{is}}$] Steady-state sine-projection of the amplitude of the ith-order harmonic component of $i_{cir}^{k}$|hyperpage}{41} 
+\indexentry{[$I_{cir_{ic}}$] Steady-state cosine-projection of the amplitude of the ith-order harmonic component of $i_{cir}^{k}$|hyperpage}{41} 
+\indexentry{[$\mathbf{X}_{ss}$] Column vector with the amplitude of the harmonic components of $i_{cir}$, $v_{dc}^{pk}$ and $v_{dc}^{nk}$ in steady state|hyperpage}{41} 
+\indexentry{[$\mathbf{A}_{ss}$] $22 \times 22$ coefficient matrix which describes $i_{cir}$, $v_{dc}^{pk}$ and $v_{dc}^{nk}$ in steady state|hyperpage}{41} 
+\indexentry{[$\mathbf{B}_{ss}$] $22 \times 22$ constant column vector which describes $i_{cir}$, $v_{dc}^{pk}$ and $v_{dc}^{nk}$ in steady state|hyperpage}{41} 
+\indexentry{[$\tilde{i}_{cir}^k$] Small-signal representation of ${i}_{cir}^k$|hyperpage}{46} 
+\indexentry{[$\tilde{i}_c^k$] Small-signal representation of ${i}_c^k$|hyperpage}{46} 
+\indexentry{[$\tilde{e}_c^{k*}$] Small-signal representation of ${e}_c^{k*}$|hyperpage}{46} 
+\indexentry{[$\tilde{v}_o^{k}$] Small-signal representation of ${v}_o^{k}$|hyperpage}{46} 
+\indexentry{[$\tilde{e}_{cir}^{k*}$] Small-signal representation of ${e}_{cir}^{k*}$|hyperpage}{46} 
+\indexentry{[$\tilde{v}_{dc}^{\Delta k}$] Small-signal representation of ${v}_{dc}^{\Delta k}$|hyperpage}{46} 
+\indexentry{[$\tilde{v}_{dc}^{\Sigma k}$] Small-signal representation of ${v}_{dc}^{\Sigma k}$|hyperpage}{46} 
+\indexentry{[$e_{c0}^{k*}$] Equilibrium point considered for $e_{c}^{k*}$|hyperpage}{46} 
+\indexentry{[$e_{cir0}^{k*}$] Equilibrium point considered for $e_{cir}^{k*}$|hyperpage}{46} 
+\indexentry{[$i_{cir0}^{k}$] Equilibrium point considered for $i_{cir}^{k}$|hyperpage}{46} 
+\indexentry{[$i_{c0}^{k}$] Equilibrium point considered for $i_{c}^{k}$|hyperpage}{46} 
+\indexentry{[$v_{dc0}^{k\Sigma}$] Equilibrium point considered for $v_{dc}^{k\Sigma}$|hyperpage}{46} 
+\indexentry{[$v_{dc0}^{k\Delta}$] Equilibrium point considered for $v_{dc}^{k\Delta}$|hyperpage}{46} 
+\indexentry{[$\tilde{I}_{cir}^k$] Laplace-domain representation of $\tilde{i}_{cir}^k$|hyperpage}{50} 
+\indexentry{[$\tilde{I}_c^k$] Laplace-domain representation of $\tilde{i}_c^k$|hyperpage}{50} 
+\indexentry{[$\tilde{E}_c^{k*}$] Laplace-domain representation of $\tilde{e}_c^{k*}$|hyperpage}{50} 
+\indexentry{[$\tilde{V}_o^{k}$] Laplace-domain representation of $\tilde{v}_o^{k}$|hyperpage}{50} 
+\indexentry{[$\tilde{E}_{cir}^{k*}$] Laplace-domain representation of $\tilde{e}_{cir}^{k*}$|hyperpage}{50} 
+\indexentry{[$\tilde{V}_{dc}^{\Delta k}$] Laplace-domain representation of $\tilde{v}_{dc}^{\Delta k}$|hyperpage}{50} 
+\indexentry{[$\tilde{V}_{dc}^{\Sigma k}$] Laplace-domain representation of $\tilde{v}_{dc}^{\Sigma k}$|hyperpage}{50} 
+\indexentry{[$Z$] Arm impedance|hyperpage}{50} 
+\indexentry{[$Z_f$] Output impedance|hyperpage}{50} 
+\indexentry{[$G_{cir}$] Controller used for mitigating the circulating current|hyperpage}{51} 
+\indexentry{[$k_r^{cir}$] Resonant gain of the controller used for mitigating the circulating current|hyperpage}{51} 
+\indexentry{[$Y_{dc}$] Equivalent admittance of the dc side of the MMC in NRF|hyperpage}{52} 
+\indexentry{[$G_i$] Controller used in current loop of the MMC|hyperpage}{53} 
+\indexentry{[$k_r^{i}$] Resonant gain of the controller used in current loop of the MMC in NRF|hyperpage}{53} 
+\indexentry{[$k_p^{i}$] Proportional gain of the controller used in current loop of the MMC in NRF|hyperpage}{53} 
+\indexentry{[$Y_{ac}$] Norton-equivalent admittance of the current-controlled MMC in NRF|hyperpage}{54} 
+\indexentry{[$G_i^{cl}$] Closed-loop gain of the current-controlled MMC in NRF|hyperpage}{54} 
+\indexentry{[$G_v^{sl}$] Controller used in voltage loop of the single-loop voltage-controlled MMC|hyperpage}{56} 
+\indexentry{[$k_r^{v,sl}$] Resonant gain of the controller used in voltage loop of the single-loop voltage-controlled MMC|hyperpage}{56} 
+\indexentry{[$k_p^{v,sl}$] Proportional gain of the controller used in voltage loop of the single-loop voltage-controlled MMC|hyperpage}{56} 
+\indexentry{[$Z_{ac}^{sl}$] Series impedance of the single-loop voltage-controlled MMC in NRF without considering the capacitor bank|hyperpage}{57} 
+\indexentry{[$G_{v,cl}^{sl}$] Closed-loop gain of the single-loop voltage-controlled MMC in NRF without considering the capacitor bank|hyperpage}{57} 
+\indexentry{[$Z_{th}^{sl}$] Th\IeC {\'e}venin-equivalent impedance of the single-loop voltage-controlled MMC in NRF|hyperpage}{57} 
+\indexentry{[$G_{th}^{sl}$] Th\IeC {\'e}venin-equivalent gain of the single-loop voltage-controlled MMC in NRF|hyperpage}{57} 
+\indexentry{[$G_v^{dl}$] Controller used in voltage loop of the double-loop current/voltage-controlled MMC|hyperpage}{59} 
+\indexentry{[$k_r^{v,dl}$] Resonant gain of the controller used in voltage loop of the double-loop current/voltage-controlled MMC|hyperpage}{59} 
+\indexentry{[$k_p^{v,dl}$] Proportional gain of the controller used in voltage loop of the double-loop current/voltage-controlled MMC|hyperpage}{59} 
+\indexentry{[$Z_{ac}^{dl}$] Series impedance of the double-loop current/voltage-controlled MMC in NRF without considering the capacitor bank|hyperpage}{60} 
+\indexentry{[$G_{v,cl}^{dl}$] Closed-loop gain of the double-loop current/voltage-controlled MMC in NRF without considering the capacitor bank|hyperpage}{60} 
+\indexentry{[$Z_{th}^v$] Th\IeC {\'e}venin-equivalent impedance of the double-loop current/voltage-controlled MMC in NRF|hyperpage}{60} 
+\indexentry{[$G_{th}^{dl}$] Th\IeC {\'e}venin-equivalent gain of the double-loop current/voltage-controlled MMC in NRF|hyperpage}{60} 
+\indexentry{[$\vetorvdcsigmaabc$] Column vector containing the components $\tilde{V}_{dc}^{\Sigma a}(t)$, $\tilde{V}_{dc}^{\Sigma b}(t)$ and $\tilde{V}_{dc}^{\Sigma c}(t)$|hyperpage}{62} 
+\indexentry{[$\vetorvdcdeltaabc$] Column vector containing the components $\tilde{V}_{dc}^{\Delta a}(t)$, $\tilde{V}_{dc}^{\Delta b}(t)$ and $\tilde{V}_{dc}^{\Delta c}(t)$|hyperpage}{62} 
+\indexentry{[$\vetoricirabc$] Column vector containing the components $\tilde{i}_{cir}^{a}(t)$, $\tilde{i}_{cir}^{b}(t)$ and $\tilde{i}_{cir}^{c}(t)$|hyperpage}{62} 
+\indexentry{[$\vetoricabc$] Column vector containing the components $\tilde{i}_{c}^{a}(t)$, $\tilde{i}_{c}^{b}(t)$ and $\tilde{i}_{c}^{c}(t)$|hyperpage}{62} 
+\indexentry{[$\vetorvoabc$] Column vector containing the components $\tilde{v}_{o}^{a}(t)$, $\tilde{v}_{o}^{b}(t)$ and $\tilde{v}_{o}^{c}(t)$|hyperpage}{62} 
+\indexentry{[$\vetorvdcabc$] Column vector containing three components equal to $\tilde{V}_{dc}(t)$|hyperpage}{62} 
+\indexentry{[$\vetorecirabc$] Column vector containing the components $\tilde{e}_{cir}^{a*}(t)$, $\tilde{e}_{cir}^{b*}(t)$ and $\tilde{e}_{cir}^{c*}(t)$|hyperpage}{62} 
+\indexentry{[$\vetorecrefabc$] Column vector containing the components $\tilde{e}_{c}^{a*}(t)$, $\tilde{e}_{c}^{b*}(t)$ and $\tilde{e}_{c}^{c*}(t)$|hyperpage}{62} 
+\indexentry{[$\tdq$] Frame transformations|hyperpage}{63} 
+\indexentry{[$\theta$] Electrical angle|hyperpage}{63} 
+\indexentry{[$\vetowcoupling$] SRF coupling matrix|hyperpage}{63} 
+\indexentry{[$\vetorvdcsigmaddqL$] Column vector containing the components $\tilde{V}_{dc}^{\Sigma d}(s)$, $\tilde{V}_{dc}^{\Sigma q}(s)$ and $\tilde{V}_{dc}^{\Sigma 0}(s)$|hyperpage}{63} 
+\indexentry{[$\vetorvdcdeltadqL$] Column vector containing the components $\tilde{V}_{dc}^{\Delta d}(s)$, $\tilde{V}_{dc}^{\Delta q}(s)$ and $\tilde{V}_{dc}^{\Delta 0}(s)$|hyperpage}{63} 
+\indexentry{[$\vetoricirddqL$] Column vector containing the components $\tilde{I}_{cir}^{d}(s)$, $\tilde{I}_{cir}^{q}(s)$ and $\tilde{I}_{cir}^{0}(s)$|hyperpage}{63} 
+\indexentry{[$\vetoricdqL$] Column vector containing the components $\tilde{I}_{c}^{d}(s)$, $\tilde{I}_{c}^{q}(s)$ and $\tilde{I}_{c}^{0}(s)$|hyperpage}{63} 
+\indexentry{[$\vetorvodqL$] Column vector containing the components $\tilde{V}_{o}^{d}(s)$, $\tilde{V}_{o}^{q}(s)$ and $\tilde{V}_{o}^{0}(s)$|hyperpage}{63} 
+\indexentry{[$\vetorvdcddqL$] Column vector containing the components equal to $0$, $0$ and $\tilde{V}_{dc}(s)$|hyperpage}{63} 
+\indexentry{[$\vetorecirddqL$] Column vector containing the components $\tilde{E}_{cir}^{d*}(s)$, $\tilde{E}_{cir}^{q*}(s)$ and $\tilde{E}_{cir}^{0*}(s)$|hyperpage}{63} 
+\indexentry{[$\vetorecdqL$] Column vector containing the components $\tilde{E}_{c}^{d*}(s)$, $\tilde{E}_{c}^{q*}(s)$ and $\tilde{E}_{c}^{0*}(s)$|hyperpage}{63} 
+\indexentry{[$\sdq$] SRF complex-frequency matrix|hyperpage}{63} 
+\indexentry{[$\sddq$] D-SRF complex-frequency matrix|hyperpage}{63} 
+\indexentry{[$\vetorgcirddq$] Transfer matrix for the circulating-current mitigation controller in SRF|hyperpage}{65} 
+\indexentry{[$k_i^{icir} $] Integral gain for the circulating-current mitigation controller in SRF|hyperpage}{65} 
+\indexentry{[$\vetorydcddqL$] Admittance matrix representing the dc side of the MMC in SRF|hyperpage}{65} 
+\indexentry{[$\vetorgicirchardqL$] One of the matrix-components of $\vetorydcddqL$|hyperpage}{66} 
+\indexentry{[$\vetorgidq$] Transfer matrix for the output-current controller in SRF|hyperpage}{67} 
+\indexentry{[$\decidq$] Decoupling factor used in the output-current controller in SRF|hyperpage}{67} 
+\indexentry{[$k_i^i $] Integral gain for the output-current controller in SRF|hyperpage}{68} 
+\indexentry{[$\vetoryacdqL$] Norton-equivalent admittance matrix for the current controlled MMC in SRF|hyperpage}{68} 
+\indexentry{[$\vetorgichardqL$] One of the matrix-components of $\vetoryacdqL$|hyperpage}{68} 
+\indexentry{[$\vetorgvsldq$] Transfer matrix of the controller used in the single-loop voltage controlled MMC in SRF|hyperpage}{71} 
+\indexentry{[$k_i^{v,sl}$] Integral gains of the controller used in the single-loop voltage controlled MMC in SRF|hyperpage}{71} 
+\indexentry{[$\zdq$] SRF representation of the arm impedance of the MMC|hyperpage}{71} 
+\indexentry{[$\zfdq$] SRF representation of the output impedance of the MMC|hyperpage}{71} 
+\indexentry{[$\vetorgvslchardqL$] Auxiliary matrix used in $\vetorzslthdqL$ and $\vetorgslthdqL$|hyperpage}{72} 
+\indexentry{[$\vetorgvclsldqL$] Closed-loop voltage gain matrix of the SRF single-loop voltage-controlled MMC without considering the capacitor bank|hyperpage}{72} 
+\indexentry{[$\vetorgvslcharzdqL$] Inner impedance matrix of the SRF single-loop voltage-controlled MMC without considering the capacitor bank|hyperpage}{72} 
+\indexentry{[$\vetorzslthdqL$] Th\IeC {\'e}venin-equivalent impedance matrix of the SRF single-loop voltage-controlled MMC|hyperpage}{73} 
+\indexentry{[$\vetorgslthdqL$] Th\IeC {\'e}venin-equivalent voltage gain matrix of the SRF single-loop voltage-controlled MMC|hyperpage}{73} 
+\indexentry{[$G_{v,sl}$] Transfer matrix of the controller used in the double-loop current/voltage controlled MMC in SRF|hyperpage}{76} 
+\indexentry{[$k_i^{v,dl}$] Integral gains of the controller used in the double-loop current/voltage controlled MMC in SRF|hyperpage}{76} 
+\indexentry{[$\vetorgvcharzdldqL$] Inner impedance matrix of the SRF double-loop current/voltage-controlled MMC without considering the capacitor bank|hyperpage}{76} 
+\indexentry{[$\vetorzthdqL$] Th\IeC {\'e}venin-equivalent impedance matrix of the SRF double-loop current/voltage-controlled MMC|hyperpage}{77} 
+\indexentry{[$\vetorgthdqL$] Th\IeC {\'e}venin-equivalent voltage gain matrix of the SRF double-loop current/voltage-controlled MMC|hyperpage}{77} 
+\indexentry{[$F^{k}$] A generic variable in NRF|hyperpage}{90} 
+\indexentry{[$F^{k*}$] A generic reference signal in NRF|hyperpage}{90} 
+\indexentry{[$U^{k*}$] A generic control signal in NRF|hyperpage}{90} 
+\indexentry{[$k_{r5}$] Gain of the fifth-order resonant controller in NRF|hyperpage}{90} 
+\indexentry{[$k_{r7}$] Gain of the seventh-order resonant controller in NRF|hyperpage}{90} 
+\indexentry{[$F^{dq}$] A generic variable in SRF|hyperpage}{93} 
+\indexentry{[$F^{dq*}$] A generic reference signal in SRF|hyperpage}{93} 
+\indexentry{[$U^{dq*}$] A generic control signal in SRF|hyperpage}{93} 
+\indexentry{[$k_{r}$] Gain of the sixth-order resonant controller in SRF|hyperpage}{93} 
+\indexentry{[$\vetorantpertctrliabcL$] Feed-forward factor of the NRF current-controlled MMC|hyperpage}{97} 
+\indexentry{[$Y_{vir}$] Virtual admittance of the NRF current-controlled MMC|hyperpage}{97} 
+\indexentry{[$\vetorantpertctrlvabcL$] Feed-forward factor of the NRF single-loop voltage-controlled MMC|hyperpage}{98} 
+\indexentry{[$Z_{vir}^{sl}$] Virtual impedance of the NRF single-loop voltage-controlled MMC|hyperpage}{99} 
+\indexentry{[$\vetorantpertctrlvdlabcL$] Feed-forward factor of the NRF double-loop current/voltage-controlled MMC|hyperpage}{100} 
+\indexentry{[$Z_{vir}^{dl}$] Virtual impedance of the NRF double-loop current/voltage-controlled MMC|hyperpage}{101} 
+\indexentry{[$\vetorantpertctrlidqL$] Feed-forward factor matrix of the SRF current-controlled MMC|hyperpage}{103} 
+\indexentry{[$\vetoryvirdqL$] Virtual admittance matrix of the SRF current-controlled MMC|hyperpage}{104} 
+\indexentry{[$\vetorantpertctrlvsldqL$] Feed-forward factor matrix of the SRF single-loop voltage-controlled MMC|hyperpage}{105} 
+\indexentry{[$\vetorzvirsldqL$] Virtual impedance matrix of the SRF single-loop voltage-controlled MMC|hyperpage}{106} 
+\indexentry{[$\vetorantpertctrlvdldqL$] Feed-forward factor matrix of the SRF double-loop current/voltage-controlled MMC|hyperpage}{108} 
+\indexentry{[$\vetorzvirdldqL$] Virtual impedance matrix of the SRF double-loop current/voltage-controlled MMC|hyperpage}{108} 
+\indexentry{[$\vetorgammavirsldqL$] Matrix part of the Virtual impedance matrix of the SRF double-loop current/voltage-controlled MMC|hyperpage}{108} 
